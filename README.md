@@ -1,10 +1,10 @@
 # ticket-generator
 
-A computer script that generates event tickets with a detachable section that can be kept by event organiser and outputs all numbered tickets as a PDF for printing.
+A computer script that generates event tickets with a detachable section that can be kept by event organiser and outputs all numbered tickets as a PDF for printing. A sample ticket output is available at <https://github.com/CoCoLabErica/ticket-generator/blob/main/tickets.pdf>
 
 **No programming knowledge is required for using this ticket generator.**
 
-Step 1 - Install R and RStudio at <https://posit.co/download/rstudio-desktop/>{target="_blank"}
+Step 1 - Install R and RStudio at <https://posit.co/download/rstudio-desktop/>
 
 Step 2 - Open RStudio and create a new project
 
@@ -89,7 +89,7 @@ Step 4 - Create a new R script for your tickets
 
 - Paste the above code and then edit the first part of the R script (i.e., Ticket customisation parameters) for your own event, including the number of tickets, theme colour, event name, event organiser, event date, event info, and ticket content.
 
-- Check out the [color table](https://cocolaberica.github.io/rcolortable){target="_blank"} to help you pick a ticket colour. Choose a deep or dark theme colour to ensure the text stands out clearly and remains easy to read on the tickets.
+- Check out the [color table](https://cocolaberica.github.io/rcolortable) to help you pick a ticket colour. Choose a deep or dark theme colour to ensure the text stands out clearly and remains easy to read on the tickets.
 
 Step 5 - Run the code in the RStudio
 
