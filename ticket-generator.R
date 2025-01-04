@@ -4,9 +4,9 @@ library(ggplot2)
 num_tickets <- 30 # Number of tickets to generate (minimum is 1 ticket, and setting it to 200 tickets still gave a fast PDF output)
 ticket_color <- "royalblue4" # Theme color (check out https://cocolaberica.github.io/rcolortable)
 event_name <- "Art for HDR Wellbeing" # Event name
+organiser <- "by HDR Peer Community" # Event organiser
 event_date <- "29 November 2024" # Event date
 event_info <- "AGNSW at 3:00pm on 29 November 2024" # Event info
-organiser <- "by HDR Peer Community" # Event organiser
 content <- "Keep this ticket to join our guided art gallery tour" # Ticket content
 output_file <- "tickets.pdf" # Output file name
 
